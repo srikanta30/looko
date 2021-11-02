@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Google</title>
         <meta name="description" content="Google" />
@@ -27,7 +27,7 @@ export default function Home() {
 
       </header>
 
-<form className="flex flex-col items-center mt-44 flex-grow">
+<form className="flex flex-col items-center mt-44 flex-grow w-4/5">
 <Image src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width={300} height={100} />
 
 <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
