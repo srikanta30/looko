@@ -1,3 +1,5 @@
+import PaginationButtons from "./PaginationButtons"
+
 function SearchResults({ results }) {
     
     return (
@@ -12,13 +14,13 @@ function SearchResults({ results }) {
 <a href={result.link}><h2 className="truncate text-xl text-blue-800 font-medium group-hover:underline">{result.title}</h2></a>
  </div>
 
- <p>{result.snippet}</p>
+ <p className="line-clamp-2">{result.snippet}</p>
 
             </div>
         ))}
 
  
-
+<PaginationButtons/>
         </div>
     )
 }
