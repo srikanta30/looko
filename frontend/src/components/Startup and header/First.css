@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
-
-@media screen and (max-width:380px){
-    #body{
+@media screen and (max-width:380px) {
+    #body {
         font-family: 'Roboto', sans-serif;
-        background-color:#F5617F;
-        height:812px;
-        color:white;
+        background-color: #F5617F;
+        height: 812px;
+        color: white;
     }
-    #title{
+    #title {
         position: absolute;
         width: 210px;
         height: 84px;
@@ -24,13 +23,13 @@
         color: #FFFFFF;
         transition: 1s;
     }
-    #subtitle{
+    #subtitle {
         position: absolute;
         width: 256px;
         height: 23px;
         left: -250px;
         top: 364px;
-        font-family: Open Sans;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
@@ -39,13 +38,13 @@
         color: #FFFFFF;
         transition: 1s;
     }
-    #appname{
+    #appname {
         position: absolute;
         width: 251px;
         height: 42px;
         left: 62px;
         top: -42px;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
@@ -55,15 +54,14 @@
         color: #FFFFFF;
         transition: 1s;
     }
-
-    #body:hover #subtitle{
-        transform:translateX(310px);
+    #body:hover #subtitle {
+        transform: translateX(310px);
     }
-    #body:hover #title{
-        transform:translateX(-293px)
+    #body:hover #title {
+        transform: translateX(-293px)
     }
-    #body:hover #appname{
+    #body:hover #appname {
         transition-delay: 3s;
-        transform:translateY(343px)
+        transform: translateY(343px)
     }
 }

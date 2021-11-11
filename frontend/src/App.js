@@ -1,8 +1,12 @@
 import "./App.css";
 import BottomNav from "./components/Utils/BottomNav";
 
+<<<<<<< HEAD
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Route, Switch } from "react-router-dom";
+=======
+import './App.css';
+>>>>>>> 0ee067552aa75106ec21114091b0703e3b1d47f4
 
 import Home from "./components/Home/Home";
 import Notifications from "./components/Notifications/Notifications";
@@ -37,7 +41,6 @@ function App() {
             <Account />
           </Route>
         </Switch>
-        <BottomNav/>
     </div>
     </ThemeProvider>
 

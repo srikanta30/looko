@@ -1,7 +1,11 @@
+import {Header} from '../Utils/Header';
+import BottomNav from '../Utils/BottomNav';
+
 function Account() {
     return (
         <div>
-            <h1>Account Page</h1>
+            <Header/>
+            <BottomNav />
         </div>
     )
 }

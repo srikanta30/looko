@@ -1,7 +1,13 @@
+import {Header} from '../Utils/Header';
+import BottomNav from '../Utils/BottomNav';
+import Button from '../Utils/Button';
+
 function History() {
     return (
         <div>
-            <h1>History Page</h1>
+            <Header/>
+            <Button style={{marginTop: 30}} text="Button"/>
+            <BottomNav />
         </div>
     )
 }
