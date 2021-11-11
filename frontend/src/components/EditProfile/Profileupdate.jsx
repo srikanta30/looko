@@ -2,6 +2,7 @@ import arrowkey from './icons/Leftarrow.svg'
 import Pencil from './icons/Pencil.svg'
 import Profilepic from './icons/Profile.svg'
 import './Profileupdate.css'
+import {Button} from '../Utils/Button'
 
 export const Profileupdate = () => {
 
@@ -38,9 +39,21 @@ export const Profileupdate = () => {
                 <input class="ip" type="text" placeholder="" />
                 </div>
                 <div id="btns">
-                    <button>Female</button>
-                    <button>Male</button>
+                    <button id="fem" onClick={()=>{
+                        document.getElementById('fem').style.backgroundColor = "#F5617F"
+                        document.getElementById("fem").style.color = "white"
+                        document.getElementById("ma").style.backgroundColor = "white"
+                        document.getElementById("ma").style.color = "black"
+                    }} >Female</button>
+                    <button id="ma" onClick={()=>{
+                        document.getElementById('ma').style.backgroundColor = "#F5617F"
+                        document.getElementById("ma").style.color = "white"
+                        document.getElementById("fem").style.backgroundColor = "white"
+                        document.getElementById("fem").style.color = "black";
+
+                    }} >Male</button>
                 </div>
+                <Button text='UPDATE'></Button>
             </div>
         </div>
     )
