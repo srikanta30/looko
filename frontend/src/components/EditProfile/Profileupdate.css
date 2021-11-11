@@ -1,0 +1,86 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    #main {
+        background-color: rgba(230, 220, 220, 0.521);
+        width: 375px;
+        height: 812px;
+    }
+    
+    #cover {
+        width: 375px;
+        height: 205px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        background-blend-mode: lighten;
+    }
+    
+    #pfp {
+        width: 112px;
+        height: 112px;
+        margin-left: 120px;
+        margin-top: -70px;
+        background: #C4C4C4;
+    }
+    
+    #arrow {
+        width: 40px;
+        height: 40px;
+        display: block;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+    
+    #edit {
+        margin-left: 90px;
+    }
+    
+    #main #form {
+        width: 375px;
+        margin-top: 10px;
+    }
+    
+    #form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #form div {
+        margin-top: 30px;
+    }
+    
+    .ip {
+        width: 315px;
+        height: 48px;
+        background-color: white;
+        border: .8px solid rgba(128, 128, 128, 0.61);
+        outline-color: rgba(226, 43, 226, 0.733);
+    }
+    
+    .labeltext {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.408px;
+        color: #979797;
+        float: left;
+        margin-left: 30px;
+    }
+    
+    #btns {
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px
+    }
+    
+    #btns button {
+        width: 157px;
+        height: 40px;
+        background-color: white;
+        border: .8px solid rgba(128, 128, 128, 0.61);
+        cursor: pointer;
+        transition: 0.2s all;
+    }
+    
+    button:active {
+        transform: scale(0.98);
+    }
