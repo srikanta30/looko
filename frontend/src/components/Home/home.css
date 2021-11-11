@@ -1,0 +1,42 @@
+.subheader {
+     max-width: 375px;
+     max-height: 117px; 
+}
+
+.subheader p {
+    margin: 48px 16px;
+    font-size: 16px;
+}
+
+.recommended {
+    max-width: 375px;
+    max-height: 132px;
+}
+
+#recommended-header {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+ul {
+    line-height: 16px;
+}
+
+ul li {
+    font-size: 14px;
+}
+
+li:nth-child(2) {
+ margin-bottom: 40px;
+}
+
+.border {
+    
+        border: none;
+        height: 1px;
+        color: #e0e0e0;
+        background-color: #e0e0e0;
+
+}
+

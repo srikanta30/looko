@@ -17,17 +17,17 @@ function BottomNav() {
 
   return (
     <div>
-    <Box sx={{ width: 375, position: 'fixed', bottom: 0, left: 0, right: 0}} elevation={3}>
+    <Box sx={{ width: 375, position: 'fixed', bottom: 0}} elevation={3}>
       <BottomNavigation
         showLabels
         value={value}
         onChange={(event, newValue) => {
           setValue(newValue);
         }}
-      ><BottomNavigationAction label="Home" icon={<HomeIcon />} component={Link} to='/' value='/' />
-        <BottomNavigationAction label="History" icon={<RestoreIcon />} component={Link} to='/history' value='/history'/>
-        <BottomNavigationAction label="Notifications" icon={<NotificationsIcon />} component={Link} to='/notifications' value='/notifications' />
-        <BottomNavigationAction label="Account" icon={<PersonOutlineIcon />} component={Link} to='/account' value='/account'/>
+      ><BottomNavigationAction label="Home" icon={<HomeIcon />} component={Link} to='/' value='/' style={{ color: (pathname === "/") ? '#F5617F' : "#010729"}} />
+        <BottomNavigationAction label="History" icon={<RestoreIcon />} component={Link} to='/history' value='/history' style={{ color: (pathname === "/history") ? '#F5617F' : "#010729"}}/>
+        <BottomNavigationAction label="Notifications" icon={<NotificationsIcon />} component={Link} to='/notifications' value='/notifications' style={{ color: (pathname === "/notifications") ? '#F5617F' : "#010729"}}/>
+        <BottomNavigationAction label="Account" icon={<PersonOutlineIcon />} component={Link} to='/account' value='/account' style={{ color: (pathname === "/account") ? '#F5617F' : "#010729"}}/>
         
       
       </BottomNavigation>
