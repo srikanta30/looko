@@ -1,0 +1,33 @@
+
+    #headerbody{
+        top: 0px;
+        max-width: 375px;
+        max-height: 56px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+      }
+      
+      #logotext{
+          
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 18px;
+          letter-spacing: 0.25px;
+          color: #F5617F;
+          margin-left: 3.5px;
+      }
+
+      .border {
+    
+        border: none;
+        height: 1px;
+        color: #e0e0e0;
+        background-color: #e0e0e0;
+}
+

@@ -1,7 +1,11 @@
+import {Header} from '../Utils/Header';
+import BottomNav from '../Utils/BottomNav';
+
 function Notifications() {
     return (
         <div>
-            <h1>Notifications</h1>
+            <Header/>
+            <BottomNav />
         </div>
     )
 }
