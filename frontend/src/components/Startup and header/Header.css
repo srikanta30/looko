@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+
+@media screen and (max-width:380px){
+    #headerbody{
+    
+        position: absolute;
+        width: 375px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+      }
+      
+      #iconbg{
+          width:30px;
+          height:30px;
+          border-radius:15px;
+          position: absolute;
+          left: 37.07%;
+          right: 54.93%;
+          top: 23.21%;
+          bottom: 23.21%;
+          /* background-color: #F5617F;
+          opacity: 0.2; */
+      }
+      #logotext{
+          position: absolute;
+          left: 46.13%;
+          right: 38.13%;
+          top: 26.79%;
+          bottom: 28.57%;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          letter-spacing: 0.25px;
+          color: #F5617F;
+      }
+      #iconbg img{
+          margin: 5px auto;
+      }
+}
