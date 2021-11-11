@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+@media screen and (max-width:380px){
+    #body{
+        font-family: 'Roboto', sans-serif;
+        background-color:#F5617F;
+        height:812px;
+        color:white;
+    }
+    #title{
+        position: absolute;
+        width: 210px;
+        height: 84px;
+        left: 375px;
+        top: 272px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        transition: 1s;
+    }
+    #subtitle{
+        position: absolute;
+        width: 256px;
+        height: 23px;
+        left: -250px;
+        top: 364px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        transition: 1s;
+    }
+    #appname{
+        position: absolute;
+        width: 251px;
+        height: 42px;
+        left: 62px;
+        top: -42px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        transition: 1s;
+    }
+
+    #body:hover #subtitle{
+        transform:translateX(310px);
+    }
+    #body:hover #title{
+        transform:translateX(-293px)
+    }
+    #body:hover #appname{
+        transition-delay: 3s;
+        transform:translateY(343px)
+    }
+}
