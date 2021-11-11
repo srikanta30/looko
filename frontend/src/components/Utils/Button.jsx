@@ -2,7 +2,7 @@ import "./button.css";
 
 function Button({ text, handleClick }) {
   return (
-    <div>
+    <div >
       <button
         onClick={() => {
           handleClick();

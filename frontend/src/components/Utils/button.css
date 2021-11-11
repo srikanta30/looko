@@ -1,4 +1,5 @@
 button {
+    box-sizing: border-box;
     margin: auto;
     width: 315px;
     max-height: 48px;
@@ -17,3 +18,4 @@ button {
     line-height: 16px;
     letter-spacing: 0.25px;
 }
+
