@@ -3,9 +3,20 @@ import camera from './camera.svg';
 import gallery from './gallery.svg';
 import {Header} from '../Utils/Header';
 import BottomNav from '../Utils/BottomNav';
+import {useState, useEffect} from 'react';
+import {First} from './First';
 
 function Home() {
-    return (
+
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => { 
+        setTimeout(() => {
+        setLoading(false);
+        }, 3000);
+     }, [])
+
+    return loading ? (<> <First/> </>): (
         <div>
             <Header/>
             <div className="subheader">

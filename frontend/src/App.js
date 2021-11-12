@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Notifications from "./components/Notifications/Notifications";
 import History from "./components/History/History";
 import Account from "./components/Account/Account";
+import {WebcamCapture} from "./components/Webcam/WebcamCapture";
 
 import { HelpCenter } from "./components/HelpCenter/HelpCenter";
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/account">
             <Account />
+          </Route>
+          <Route path="/webcam">
+            <WebcamCapture />
           </Route>
         </Switch>
     </div>
