@@ -59,7 +59,7 @@ export const EditProfile = () => {
             }}
           >
             Male
-          </button>
+          </button> 
         </div>
         <Button text="UPDATE"></Button>
       </div>
