@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.help-center-container {
-    max-width: 375px;
-    max-height: 812px;
-}
 
 .help-center-heading h3 {
     text-align: center;
@@ -26,6 +22,7 @@
 
 .help-center-heading {
     height: 250px;
+    max-width: 375px;
 }
 
 .queries h3 {
@@ -40,23 +37,14 @@
 
 
 .queries input {
+    max-width: 375px;
+    max-height: 812px;
 
-    width: 19.1rem;
-    height: 7.1rem;
+    width: 315px;
+    height: 115px;
     margin: 0 30px;
 }
 
 .queries Button {
     margin-top: 32px;
-}
-
-.header {
-    max-width: 375px;
-    max-height: 812px;
-}
-
-.btn {
-    max-width: 375px;
-    max-height: 812px;
-
 }
