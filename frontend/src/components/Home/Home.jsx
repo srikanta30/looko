@@ -5,6 +5,7 @@ import { Header } from '../Utils/Header';
 import BottomNav from '../Utils/BottomNav';
 import {useState, useEffect} from 'react';
 import {First} from './First';
+import {Link} from 'react-router-dom';
 
 function Home() {
 
@@ -36,14 +37,20 @@ function Home() {
                 <h1>Add photo or video</h1>
 
                 <div className="inputtypes">
-
+                
                     <div className="icon-container">
+                    <Link to="/webcam">
                         <img src={camera} alt="camera" />
+                        </Link>
                         <p>Camera</p>
                     </div>
+                  
 
                     <div className="icon-container">
-                        <img src={gallery} alt="gallery" />
+    
+                     
+                      <img src={gallery} alt="gallery"/>
+                      
                         <p>Gallery</p>
                     </div>
 

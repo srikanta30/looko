@@ -8,16 +8,12 @@ import Home from "./components/Home/Home";
 import Notifications from "./components/Notifications/Notifications";
 import History from "./components/History/History";
 import Account from "./components/Account/Account";
+import Results from "./components/Results/Results";
 import {WebcamCapture} from "./components/Webcam/WebcamCapture";
-
 import { HelpCenter } from "./components/HelpCenter/HelpCenter";
-
 import { Refer } from "./components/Refer/Refer.jsx";
-
 import { About } from "./components/About/About";
-
 import { Terms } from "./components/Terms/Terms";
-
 import { Privacy } from "./components/PrivacyPolicy/Privacy";
 
 function App() {
@@ -48,13 +44,26 @@ function App() {
           <Route path="/webcam">
             <WebcamCapture />
           </Route>
-        </Switch>
+          <Route path="/results">
+            <Results />
+          </Route>
+          <Route path="/help">
+            <HelpCenter />
+          </Route>
+          <Route path="/refer">
+          <Refer />
+          </Route>
+          <Route path="/about">
+          <About />
+          </Route>
+          <Route path="/terms">
+          <Terms />
+          </Route>
+          <Route path="/privacy">
+          <Privacy />
+          </Route>
 
-      {/* <HelpCenter /> */}
-      {/* <Refer /> */}
-      {/* <About /> */}
-      {/* <Terms /> */}
-      {/* <Privacy /> */}
+        </Switch>
       
       </div>
     </ThemeProvider>
