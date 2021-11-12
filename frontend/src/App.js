@@ -11,7 +11,7 @@ import Account from "./components/Account/Account";
 
 import { HelpCenter } from "./components/HelpCenter/HelpCenter";
 
-import { Refer } from "./components/Refer.jsx/Refer.jsx";
+import { Refer } from "./components/Refer/Refer.jsx";
 
 import { About } from "./components/About/About";
 
