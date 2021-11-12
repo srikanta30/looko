@@ -1,0 +1,10 @@
+.Privacy {
+    max-width: 375px;
+    max-height: 812px;
+    font-size: 12px;
+    padding: 30px;
+}
+
+.Privacy h3{
+    text-align: center;
+}
