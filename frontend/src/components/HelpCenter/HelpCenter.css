@@ -34,6 +34,7 @@
 .queries input {
   max-width: 375px;
   max-height: 812px;
+  border: 1px solid #C4C4C4;
 
   width: 315px;
   height: 115px;

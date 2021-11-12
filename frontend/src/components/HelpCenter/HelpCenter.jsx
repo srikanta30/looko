@@ -20,7 +20,7 @@ const HelpCenter = () => {
 
         <input type="text" />
 
-        <Button />
+        <Button text="SEND"/>
       </div>
 
       <BottomNav />

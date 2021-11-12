@@ -6,6 +6,24 @@ import "./Refer.css"
 
 import refer from "./refer.png"
 const Refer = () => {
+
+    const handleOnClick = () => {
+        if (navigator.share) {
+          navigator
+            .share({
+              title: "Check Out LookO, It's Awesome!",
+              text: `Check Out LookO, It's Awesome!`,
+              url: document.location.href,
+            })
+            .then(() => {
+              console.log('Successfully shared');
+            })
+            .catch(error => {
+              console.error('Something went wrong sharing the blog', error);
+            });
+        }
+      };
+
     return (
 
         <div className="refer_container">
@@ -33,7 +51,7 @@ const Refer = () => {
                     90olhd
                 </p>
 
-                <Button text={"SEND"} />
+                <Button text={"SEND"} handleClick={ handleOnClick }/>
 
 
 

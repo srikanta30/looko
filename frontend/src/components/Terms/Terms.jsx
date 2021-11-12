@@ -1,6 +1,5 @@
 import "./Terms.css";
 import { Header } from "../Utils/Header";
-import Button from "../Utils/Button";
 import BottomNav from "../Utils/BottomNav";
 
 const Terms = () => {

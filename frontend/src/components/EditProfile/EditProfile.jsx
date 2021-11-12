@@ -1,10 +1,10 @@
 import arrowkey from "./icons/Leftarrow.svg";
 import Pencil from "./icons/Pencil.svg";
 import Profilepic from "./icons/Profile.svg";
-import "./Profileupdate.css";
-import { Button } from "../Utils/Button";
+import "./EditProfile.css";
+import Button from "../Utils/Button";
 
-export const Profileupdate = () => {
+export const EditProfile = () => {
   return (
     <div id="main">
       <div id="cover">

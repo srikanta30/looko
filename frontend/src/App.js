@@ -14,6 +14,7 @@ import { Refer } from "./components/Refer/Refer.jsx";
 import { About } from "./components/About/About";
 import { Terms } from "./components/Terms/Terms";
 import { Privacy } from "./components/PrivacyPolicy/Privacy";
+import { EditProfile } from "./components/EditProfile/EditProfile";
 
 function App() {
   const theme = createTheme({
@@ -60,6 +61,9 @@ function App() {
           </Route>
           <Route path="/privacy">
             <Privacy />
+          </Route>
+          <Route path="/profile">
+            <EditProfile />
           </Route>
         </Switch>
       </div>

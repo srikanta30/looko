@@ -1,8 +1,7 @@
 import "./account.css";
 import { Header } from "../Utils/Header";
 import BottomNav from "../Utils/BottomNav";
-import { Profile_image } from "../ProfileImage/ProfileImage";
-import { Button } from "@mui/material";
+import { ProfileImage } from "../ProfileImage/ProfileImage";
 
 function Account() {
   return (
@@ -39,7 +38,7 @@ function Account() {
         <div className="div_privacy_policy">Privacy policy</div>
       </div>
 
-      <Profile_image />
+      <ProfileImage />
 
       <div className="div_log_out_btn">
         <button className="log_out_btn">LOG OUT</button>
