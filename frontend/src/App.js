@@ -13,6 +13,12 @@ import { HelpCenter } from "./components/HelpCenter/HelpCenter";
 
 import { Refer } from "./components/Refer.jsx/Refer.jsx";
 
+import { About } from "./components/About/About";
+
+import { Terms } from "./components/Terms/Terms";
+
+import { Privacy } from "./components/PrivacyPolicy/Privacy";
+
 function App() {
   const theme = createTheme({
     palette: {
@@ -24,8 +30,8 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-    <div className="App">
-    <Switch>
+      <div className="App">
+        <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
@@ -39,11 +45,15 @@ function App() {
             <Account />
           </Route>
         </Switch>
-    </div>
-    </ThemeProvider>
 
-    // <HelpCenter />
-    // <Refer />
+      {/* <HelpCenter /> */}
+      {/* <Refer /> */}
+      {/* <About /> */}
+      {/* <Terms /> */}
+      {/* <Privacy /> */}
+      
+      </div>
+    </ThemeProvider>
   );
 }
 

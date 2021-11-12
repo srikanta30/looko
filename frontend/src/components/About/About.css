@@ -1,0 +1,10 @@
+.About {
+    max-width: 375px;
+    max-height: 812px;
+    font-size: 12px;
+    padding: 30px;
+}
+
+.About h3{
+    text-align: center;
+}

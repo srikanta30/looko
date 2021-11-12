@@ -9,9 +9,9 @@ const HelpCenter = () => {
 
         <div className="help-center-container">
 
-            <div className="Header">
+        
                 <Header />
-            </div>
+          
 
             <div className="help-center-heading">
                 <h3>Help Center</h3>
@@ -22,6 +22,11 @@ const HelpCenter = () => {
 
             <div className="queries">
                 <h3>Write your queries to us</h3>
+
+                <input type="text" />
+
+                <Button/>
+
                
             </div>
 
