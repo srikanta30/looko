@@ -18,7 +18,7 @@
         width: 112px;
         height: 112px;
         margin-left: 120px;
-        margin-top: -70px;
+        margin-top: -60px;
         background: #C4C4C4;
     }
     
@@ -69,13 +69,16 @@
     #btns {
         display: flex;
         flex-direction: row;
-        margin-left: 30px
+        justify-content: center;
+        margin-left: 30px;
     }
     
     #btns button {
+        margin-left: -8px;
         width: 157px;
         height: 40px;
         background-color: white;
+        color: black;
         border: .8px solid rgba(128, 128, 128, 0.61);
         cursor: pointer;
         transition: 0.2s all;
