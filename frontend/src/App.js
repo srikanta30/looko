@@ -1,5 +1,4 @@
 import "./App.css";
-import BottomNav from "./components/Utils/BottomNav";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Route, Switch } from "react-router-dom";
@@ -9,7 +8,7 @@ import Notifications from "./components/Notifications/Notifications";
 import History from "./components/History/History";
 import Account from "./components/Account/Account";
 import Results from "./components/Results/Results";
-import {WebcamCapture} from "./components/Webcam/WebcamCapture";
+import { WebcamCapture } from "./components/Webcam/WebcamCapture";
 import { HelpCenter } from "./components/HelpCenter/HelpCenter";
 import { Refer } from "./components/Refer/Refer.jsx";
 import { About } from "./components/About/About";
@@ -51,20 +50,18 @@ function App() {
             <HelpCenter />
           </Route>
           <Route path="/refer">
-          <Refer />
+            <Refer />
           </Route>
           <Route path="/about">
-          <About />
+            <About />
           </Route>
           <Route path="/terms">
-          <Terms />
+            <Terms />
           </Route>
           <Route path="/privacy">
-          <Privacy />
+            <Privacy />
           </Route>
-
         </Switch>
-      
       </div>
     </ThemeProvider>
   );

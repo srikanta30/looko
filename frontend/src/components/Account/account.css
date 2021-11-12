@@ -1,149 +1,145 @@
 .top_div {
-    margin: 0;
-    padding: 0;
-    width: 375px;
-    height: 110px;
-    background-color: #f5617f;
-    max-width: 375px;
-    max-height: 190px;
+  margin: 0;
+  padding: 0;
+  width: 375px;
+  height: 110px;
+  background-color: #f5617f;
+  max-width: 375px;
+  max-height: 190px;
 }
 
 .second_div {
-
-    width: 375px;
-    height: 74px;
-    max-width: 375px;
-    max-height: 74px;
+  width: 375px;
+  height: 74px;
+  max-width: 375px;
+  max-height: 74px;
 }
 
 .username_div {
-    width: 88px;
-    height: 22px;
-    position: absolute;
-    left: 150px;
-    top: 194px;
+  width: 88px;
+  height: 22px;
+  position: absolute;
+  left: 150px;
+  top: 194px;
 }
 
-.div_profile_details{
-    position: absolute;
-    width: 343px;    
-    height: 64px;
-    margin: auto;
-    max-width: 343px;
-    max-height: 64px;
-    /* background-color: aqua; */
+.div_profile_details {
+  position: absolute;
+  width: 343px;
+  height: 64px;
+  margin: auto;
+  max-width: 343px;
+  max-height: 64px;
+  /* background-color: aqua; */
 }
 
 .profile_details {
-    position: absolute;
-    left: 50px;
-    top: 20px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 
 .dark_circle {
-    width: 24px;
-    height: 24px;
-    background-color: black;
-    border-radius: 12px;
-    position: absolute;
-    top: 20px;
-    left: 10px;
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-radius: 12px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
 .Arrow_div {
-    position: absolute;
-    top: 20px;
-    right: 0%;
+  position: absolute;
+  top: 20px;
+  right: 0%;
 }
 .div_help_center {
-    width: 343px;
-    height: 64px;
-    margin: auto;
-    position: absolute;
-    /* top: 328px; */
-    top: 300px;
-    max-width: 343px;
-    max-height: 64px;
-    /* left: 20px; */
-    /* background-color: blueviolet; */
+  width: 343px;
+  height: 64px;
+  margin: auto;
+  position: absolute;
+  /* top: 328px; */
+  top: 300px;
+  max-width: 343px;
+  max-height: 64px;
+  /* left: 20px; */
+  /* background-color: blueviolet; */
 }
 
 .help_center {
-    position: absolute;
-    left: 50px;
-    top: 20px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 
 .div_refer_friends {
-    width: 343px;
-    height: 64px;
-    margin: auto;
-    position: absolute;
-    /* top: 392px; */
-    top: 364px;
-    max-width: 343px;
-    max-height: 64px;
-    /* left: 20px; */
-    /* background-color: yellowgreen; */
+  width: 343px;
+  height: 64px;
+  margin: auto;
+  position: absolute;
+  /* top: 392px; */
+  top: 364px;
+  max-width: 343px;
+  max-height: 64px;
+  /* left: 20px; */
+  /* background-color: yellowgreen; */
 }
 
 .refer_friends {
-    position: absolute;
-    left: 50px;
-    top: 20px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
 }
 
-.third_div{
-    width: 375px;
-    height: 167px;
-    position: absolute;
-    top: 430px;
-    max-width: 375px;
-    max-height: 167px;
-    /* background-color: violet; */
+.third_div {
+  width: 375px;
+  height: 167px;
+  position: absolute;
+  top: 430px;
+  max-width: 375px;
+  max-height: 167px;
+  /* background-color: violet; */
 }
 
 .div_about_us {
-    margin-top: 20px;
-    margin-left: 25px;
-    
+  margin-top: 20px;
+  margin-left: 25px;
 }
 
 .div_terms_of_use {
-    margin-top: 20px;
-    margin-left: 25px;
-    
+  margin-top: 20px;
+  margin-left: 25px;
 }
 
 .div_privacy_policy {
-    margin-top: 20px;
-    margin-left: 25px;
-    
+  margin-top: 20px;
+  margin-left: 25px;
 }
 
 .div_log_out_btn {
-    position: absolute;
-    top: 640px;
-    margin-left: 25px;
+  position: absolute;
+  top: 640px;
+  margin-left: 25px;
 }
 
-.log_out_btn{
-    box-sizing: border-box;
-    margin: auto;
-    width: 315px;
-    max-height: 48px;
-    background-color: #F5617F;
-    color: #FFFFFF;
-    border-radius: 4px;
-    display: flex;
-    border: none;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 8px;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.25px;
+.log_out_btn {
+  box-sizing: border-box;
+  margin: auto;
+  width: 315px;
+  max-height: 48px;
+  background-color: #f5617f;
+  color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
 }

@@ -1,11 +1,10 @@
-.image_div{
-    position: absolute;
-    left: 32px;
-    top: 128px;
-    background-color: black;
+.image_div {
+  position: absolute;
+  left: 32px;
+  top: 128px;
+  background-color: black;
 }
-.profile_image{
-    width: 70px;
-    height: 70px;
-
+.profile_image {
+  width: 70px;
+  height: 70px;
 }

@@ -1,21 +1,20 @@
 button {
-    box-sizing: border-box;
-    margin: auto;
-    width: 315px;
-    max-height: 48px;
-    background-color: #F5617F;
-    color: #FFFFFF;
-    border-radius: 4px;
-    display: flex;
-    border: none;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 8px;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.25px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 315px;
+  max-height: 48px;
+  background-color: #f5617f;
+  color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
 }
-
