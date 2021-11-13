@@ -51,7 +51,7 @@ function Results() {
   return (
     <div className="resultspara">
       <ul>
-        <li>Outfile looks good - {Math.round(Math.random() * 100)} %</li>
+        <li>Outfit looks good - {Math.round(Math.random() * 100)} %</li>
         <li>Hair matches - {Math.round(Math.random() * 100)} %</li>
         <li id="marginli">{suggestions[0][Math.round(Math.random() * 3)]}.</li>
         <li>{suggestions[4][Math.round(Math.random() * 2)]}.</li>

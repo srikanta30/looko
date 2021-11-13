@@ -29,7 +29,7 @@ function BottomNav() {
             component={Link}
             to="/"
             value="/"
-            style={{ color: pathname === "/" ? "#F5617F" : "#010729" }}
+            style={{ color: pathname === "/" || "/gallery" ? "#F5617F" : "#010729" }}
           />
           <BottomNavigationAction
             label="History"

@@ -1,0 +1,18 @@
+.centergallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    margin-top: 50px;
+}
+
+.centergallery img {
+    margin-top: 50px;
+}
+
+Button {
+    margin-top: 50px;
+}
