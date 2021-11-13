@@ -1,5 +1,5 @@
 import "./ProfileImage.css";
-import profileImages from "../icons/Group 17.svg";
+//import profileImages from "../icons/Group 17.svg";
 import { Link } from "react-router-dom";
 export const ProfileImage = () => {
   return (

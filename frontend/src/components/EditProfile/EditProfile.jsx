@@ -1,6 +1,6 @@
 import arrowkey from "./icons/Leftarrow.svg";
 import Pencil from "./icons/Pencil.svg";
-import Profilepic from "./icons/Profile.svg";
+//import Profilepic from "./icons/Profile.svg";
 import "./EditProfile.css";
 import Button from "../Utils/Button";
 import BottomNav from "../Utils/BottomNav";

@@ -12,24 +12,24 @@ function Notifications() {
       <Header />
       <div>
         <div className="notificationbar">
-          <img src={blueT} />
+          <img src={blueT} alt=""/>
           <div>Hey! Check the latest funky T-Shirt</div>
-          <img src ={forward} />
+          <img src ={forward} alt=""/>
         </div>
         <div className="notificationbar">
-          <img src={redT} />
+          <img src={redT} alt="" />
           <div>Hey! Check the latest funky T-Shirt</div>
-          <img src ={forward} />
+          <img src ={forward} alt=""/>
         </div>
         <div className="notificationbar">
-          <img src={blueT} />
+          <img src={blueT} alt=""/>
           <div>Hey! Check the latest funky T-Shirt</div>
-          <img src ={forward} />
+          <img src ={forward} alt=""/>
         </div>
         <div className="notificationbar">
-          <img src={redT} />
+          <img src={redT} alt=""/>
           <div>Hey! Check the latest funky T-Shirt</div>
-          <img src ={forward} />
+          <img src ={forward} alt=""/>
         </div>
       </div>
       <BottomNav />

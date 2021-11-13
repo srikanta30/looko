@@ -50,15 +50,15 @@ function Account() {
 
       <div className="third_div">
         <Link to="/about">
-          <div className="div_about_us"><a>About us</a></div>
+          <div className="div_about_us">About us</div>
         </Link>
 
         <Link to="/terms">
-          <div className="div_terms_of_use"><a>Terms of use</a></div>
+          <div className="div_terms_of_use">Terms of use</div>
         </Link>
 
         <Link to="/privacy">
-          <div className="div_privacy_policy"><a>Privacy policy</a></div>
+          <div className="div_privacy_policy">Privacy policy</div>
         </Link>
       </div>
 
