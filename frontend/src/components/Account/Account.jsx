@@ -1,7 +1,10 @@
+import imgProfileDetails from "./icons/healthicons_person-outline.svg";
+import imgHelpCenter from "./icons/healthicons_people-outline.svg";
+import imgReferToFriends from "./icons/iconoir_headset-help.svg";
 import "./account.css";
 import { Header } from "../Utils/Header";
 import BottomNav from "../Utils/BottomNav";
-import { ProfileImage } from "../ProfileImage/ProfileImage";
+import { ProfileImage } from "./ProfileImage/ProfileImage";
 
 function Account() {
   return (
@@ -15,19 +18,25 @@ function Account() {
       </div>
 
       <div className="div_profile_details">
-        <div className="dark_circle"></div>
+        <div className="dark_circle">
+        <img src={imgProfileDetails} alt=""/>
+        </div>
         <div className="profile_details">Profile Details</div>
         <div className="Arrow_div">&gt;</div>
       </div>
 
       <div className="div_help_center">
-        <div className="dark_circle"></div>
+        <div className="dark_circle">
+          <img src={imgHelpCenter} alt=""/>
+        </div>
         <div className="help_center">Help Center</div>
         <div className="Arrow_div">&gt;</div>
       </div>
 
       <div className="div_refer_friends">
-        <div className="dark_circle"></div>
+        <div className="dark_circle">
+        <img src={imgReferToFriends} alt=""/>
+        </div>
         <div className="refer_friends">Refer Your Friends</div>
         <div className="Arrow_div">&gt;</div>
       </div>
