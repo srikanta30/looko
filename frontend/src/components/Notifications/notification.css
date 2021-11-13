@@ -1,0 +1,21 @@
+.notificationbar {
+    width: 375px;
+    height: 55px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    border-bottom: 1px solid rgba(153, 151, 151, 0.651);
+}
+
+.notificationbar img {
+    width: 22px;
+    height: 18px;
+    margin-top: 18px;
+}
+
+.notificationbar * {
+    margin-top: 15px;
+}
