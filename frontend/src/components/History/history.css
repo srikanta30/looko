@@ -1,0 +1,58 @@
+#cont {
+    display: flex;
+    flex-direction: column;
+}
+
+#cont .searchbar {
+    margin-left: 16px;
+    margin-top: 10px;
+    position: relative;
+    width: 334px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#cont .searchbar .searchbar-cont {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#cont .searchbar .searchbar-cont .search {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+    padding-left: 15px;
+    border: none;
+}
+
+#cont .searchbar .searchbar-cont .search:focus {
+    outline: none;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.726);
+    padding-bottom: 8px;
+    padding-top: 6px;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
+.pfpimg {
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
