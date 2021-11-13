@@ -55,7 +55,7 @@ function BottomNav() {
             component={Link}
             to="/account"
             value="/account"
-            style={{ color: pathname === "/account" ? "#F5617F" : "#010729" }}
+            style={{ color: pathname === "/account" || pathname === "/help" || pathname === "/about" || pathname === "/privacy" || pathname === "/terms" || pathname === "/refer" || pathname === "/profile" ? "#F5617F" : "#010729" }}
           />
         </BottomNavigation>
       </Box>

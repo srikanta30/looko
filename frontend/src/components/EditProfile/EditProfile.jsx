@@ -3,6 +3,8 @@ import Pencil from "./icons/Pencil.svg";
 import Profilepic from "./icons/Profile.svg";
 import "./EditProfile.css";
 import Button from "../Utils/Button";
+import BottomNav from "../Utils/BottomNav";
+import {Link} from "react-router-dom";
 
 export const EditProfile = () => {
   return (
@@ -10,7 +12,7 @@ export const EditProfile = () => {
       <div id="cover">
         <div id="arrow">
           {/* onclicking this div it will go one page back */}
-          <img src={arrowkey} alt="arrow-key" />
+          <Link to="/account"><img src={arrowkey} alt="arrow-key" /></Link>
         </div>
       </div>
       <div id="pfp">
@@ -63,6 +65,7 @@ export const EditProfile = () => {
         </div>
         <Button text="UPDATE"></Button>
       </div>
+      <BottomNav />
     </div>
   );
 };
