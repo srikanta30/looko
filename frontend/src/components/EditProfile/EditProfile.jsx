@@ -20,24 +20,24 @@ export const EditProfile = () => {
           <img src={Pencil} alt="pencil" />
         </div>
         <div id="pic">
-          <img src={Profilepic} alt="pfp" />
+          <img src="https://pbs.twimg.com/profile_images/1449022166930919432/6YdCe7WM_400x400.jpg" alt="pfp" />
         </div>
       </div>
       <div id="form">
         <div>
           <label className="labeltext">Mobile Number</label>
           <br />
-          <input className="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="+91813938716" />
         </div>
         <div>
           <label className="labeltext">Full Name</label>
           <br />
-          <input className="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="Srikanta Banerjee" />
         </div>
         <div>
           <label className="labeltext">Email</label>
           <br />
-          <input className="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="srikantabanerjee30@gmail.com" />
         </div>
         <div id="btns">
           <button
@@ -52,7 +52,7 @@ export const EditProfile = () => {
             Female
           </button>
           <button
-            id="ma"
+            id="ma" style={{backgroundColor: "#F5617F", color: "white"}}
             onClick={() => {
               document.getElementById("ma").style.backgroundColor = "#F5617F";
               document.getElementById("ma").style.color = "white";

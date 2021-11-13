@@ -17,7 +17,7 @@ const Base64Toimg = (str) => {
 router.post("/", async (req, res) => {
   const compliedImage = Base64Toimg(req.body.uri);
   const { fileName } = compliedImage;
-  const image = `http://localhost:2345/historyimg/${fileName}`;
+  const image = `http://localhost:5000/historyimg/${fileName}`;
   const newEntry = await History.create({
     photo: image,
     meta: new Date(),

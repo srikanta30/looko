@@ -15,7 +15,7 @@ function Account() {
       <div className="top_div"></div>
 
       <div className="second_div">
-        <div className="username_div">User Name</div>
+        <div className="username_div">Srikanta</div>
       </div>
 
       <Link to="/profile">

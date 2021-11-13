@@ -22,9 +22,15 @@
     background: #c4c4c4;
 }
 
-#pic {
+/* #pic {
     margin-left: 25%;
     margin-top: 5%;
+} */
+
+#pic img {
+    margin-top: -27px;
+    max-width: 112px;
+    max-height: 112px;
 }
 
 #arrow {

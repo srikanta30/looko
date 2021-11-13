@@ -24,7 +24,7 @@ router.post("/", upload.single("profile"), async (req, res) => {
     name: req.body.name,
     phone: req.body.phone,
     email: req.body.email,
-    image: `http://localhost:2345/profile/${req.file.filename}`,
+    image: `http://localhost:5000/profile/${req.file.filename}`,
     gender: req.body.gender,
   });
   return res.json({
@@ -38,7 +38,7 @@ router.patch("/:id", upload.single("profile"), async (req, res) => {
     name: req.body.name,
     phone: req.body.phone,
     email: req.body.email,
-    image: `http://localhost:2345/profile/${req.file.filename}`,
+    image: `http://localhost:5000/profile/${req.file.filename}`,
     gender: req.body.gender,
   });
   return res.send({
