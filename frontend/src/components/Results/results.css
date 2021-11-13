@@ -1,0 +1,25 @@
+.resultspara {
+  text-align: left;
+  line-height: 5px;
+}
+
+#marginli {
+    margin-top: -35px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+.styleimage {
+    height: 120px;
+    width: 163px;
+}
+
+.stylecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}

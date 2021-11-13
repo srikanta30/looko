@@ -8,6 +8,8 @@ import Notifications from "./components/Notifications/Notifications";
 import History from "./components/History/History";
 import Account from "./components/Account/Account";
 import Results from "./components/Results/Results";
+import Login from "./components/Login/Login";
+import Gallery from "./components/Gallery/Gallery";
 import { WebcamCapture } from "./components/Webcam/WebcamCapture";
 import { HelpCenter } from "./components/HelpCenter/HelpCenter";
 import { Refer } from "./components/Refer/Refer.jsx";
@@ -64,6 +66,12 @@ function App() {
           </Route>
           <Route path="/profile">
             <EditProfile />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/gallery">
+            <Gallery />
           </Route>
         </Switch>
       </div>

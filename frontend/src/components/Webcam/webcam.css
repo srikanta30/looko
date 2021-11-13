@@ -5,3 +5,31 @@
   flex-direction: column;
   align-items: center;
 }
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader img {
+  margin-top: 250px;
+}
+
+.resultsdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultsphoto {
+  margin-top: 2px;
+  width: 343px;
+  height: 338px;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+}
+
+

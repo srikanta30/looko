@@ -48,8 +48,9 @@ function Home() {
           </div>
 
           <div className="icon-container">
+          <Link to="/gallery">
             <img src={gallery} alt="gallery" />
-
+            </Link>
             <p>Gallery</p>
           </div>
         </div>

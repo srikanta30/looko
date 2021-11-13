@@ -23,19 +23,19 @@ export const EditProfile = () => {
       </div>
       <div id="form">
         <div>
-          <label class="labeltext">Mobile Number</label>
+          <label className="labeltext">Mobile Number</label>
           <br />
-          <input class="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="" />
         </div>
         <div>
-          <label class="labeltext">Full Name</label>
+          <label className="labeltext">Full Name</label>
           <br />
-          <input class="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="" />
         </div>
         <div>
-          <label class="labeltext">Email</label>
+          <label className="labeltext">Email</label>
           <br />
-          <input class="ip" type="text" placeholder="" />
+          <input className="ip" type="text" placeholder="" />
         </div>
         <div id="btns">
           <button
