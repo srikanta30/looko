@@ -5,6 +5,7 @@ import "./account.css";
 import { Header } from "../Utils/Header";
 import BottomNav from "../Utils/BottomNav";
 import { ProfileImage } from "./ProfileImage/ProfileImage";
+import { Link } from "react-router-dom";
 
 function Account() {
   return (
@@ -17,34 +18,48 @@ function Account() {
         <div className="username_div">User Name</div>
       </div>
 
-      <div className="div_profile_details">
-        <div className="dark_circle">
-        <img src={imgProfileDetails} alt=""/>
+      <Link to="/profile">
+        <div className="div_profile_details">
+          <div className="dark_circle">
+          <img src={imgProfileDetails} alt=""/>
+          </div>
+          <div className="profile_details">Profile Details</div>
+          <div className="Arrow_div">&gt;</div>
         </div>
-        <div className="profile_details">Profile Details</div>
-        <div className="Arrow_div">&gt;</div>
-      </div>
+      </Link>
 
-      <div className="div_help_center">
-        <div className="dark_circle">
-          <img src={imgHelpCenter} alt=""/>
+      <Link to="/help">
+        <div className="div_help_center">
+          <div className="dark_circle">
+            <img src={imgHelpCenter} alt=""/>
+          </div>
+          <div className="help_center">Help Center</div>
+          <div className="Arrow_div">&gt;</div>
         </div>
-        <div className="help_center">Help Center</div>
-        <div className="Arrow_div">&gt;</div>
-      </div>
+      </Link>
 
-      <div className="div_refer_friends">
-        <div className="dark_circle">
-        <img src={imgReferToFriends} alt=""/>
+      <Link to="/refer">
+        <div className="div_refer_friends">
+          <div className="dark_circle">
+          <img src={imgReferToFriends} alt=""/>
+          </div>
+          <div className="refer_friends">Refer Your Friends</div>
+          <div className="Arrow_div">&gt;</div>
         </div>
-        <div className="refer_friends">Refer Your Friends</div>
-        <div className="Arrow_div">&gt;</div>
-      </div>
+        </Link>
 
       <div className="third_div">
-        <div className="div_about_us">About us</div>
-        <div className="div_terms_of_use">Terms of use</div>
-        <div className="div_privacy_policy">Privacy policy</div>
+        <Link to="/about">
+          <div className="div_about_us"><a>About us</a></div>
+        </Link>
+
+        <Link to="/terms">
+          <div className="div_terms_of_use"><a>Terms of use</a></div>
+        </Link>
+
+        <Link to="/privacy">
+          <div className="div_privacy_policy"><a>Privacy policy</a></div>
+        </Link>
       </div>
 
       <ProfileImage />
