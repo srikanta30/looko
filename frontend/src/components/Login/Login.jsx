@@ -1,12 +1,18 @@
-import { Header } from "../Utils/Header";
+
 import BottomNav from "../Utils/BottomNav";
 import Button from "../Utils/Button";
+import LoginHeaderImage from "./LoginHeaderImage.png";
+import "./login.css";
 
 function Login() {
     return (
         <div>
-            <Header />
-            <Button text="LOGIN"/>
+            <div className="headerimagecontainer">
+            <img src={LoginHeaderImage} alt="LookO Login"/>
+            </div>
+            
+            <Button text="CONTINUE"/>
+            <Button text="CONTINUE" className="googleauth"/>
       <BottomNav />
         </div>
     )
