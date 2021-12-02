@@ -30,6 +30,8 @@
 
 # Some Snapshots of Application:-
 
+<p>
+
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/68117560/144375962-3e626be6-f3fa-46f5-828e-6ecd01438da6.png">
 
 <img width="152" alt="image" src="https://user-images.githubusercontent.com/68117560/144376207-e6813c0d-c64c-452e-aa16-534abb88a460.png">
@@ -42,5 +44,6 @@
 
 <img width="154" alt="image" src="https://user-images.githubusercontent.com/68117560/144376441-4fe4b5a0-6c1f-421d-ba3d-b17bb5ccde33.png">
  
- <img width="239" alt="image" src="https://user-images.githubusercontent.com/68117560/144376504-c8a5ac5a-efb3-446a-a642-878473bdcca6.png">
+ <img width="239" alt="image" src="https://user-images.githubusercontent.com/68117560/144376504-c8a5ac5a-efb3-446a-a642-878473bdcca6.png"></p>
+
 
