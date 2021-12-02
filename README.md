@@ -3,7 +3,7 @@
 
 
 # Team Members
-1.Shreekanta Banarjee
+1. Shreekanta Banarjee
 2. Nagendra Patil
 3. Ruturaj Gaikwad
 4. Pratik Jadhav
