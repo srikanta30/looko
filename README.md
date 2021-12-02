@@ -4,7 +4,7 @@
 
 # Team Members
 1. Shreekanta Banarjee
-2. Sovik Datta
+2. Souvik Datta
 3. Nagendra Patil
 4. Ruturaj Gaikwad
 5. Pratik Jadhav
