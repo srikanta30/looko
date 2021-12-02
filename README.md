@@ -38,12 +38,15 @@
 
 <img width="152" alt="image" src="https://user-images.githubusercontent.com/68117560/144376342-3f8f8a0d-167e-43fe-ab3b-a58ae1241e42.png">
 
+</p>
+
+<p align="center" > 
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/68117560/144376402-20d06b55-3786-4a1f-b1a8-c7999c486c14.png">
 
 <img width="154" alt="image" src="https://user-images.githubusercontent.com/68117560/144376432-6039622e-42e6-45c3-a989-485fa23bb600.png">
 
 <img width="154" alt="image" src="https://user-images.githubusercontent.com/68117560/144376441-4fe4b5a0-6c1f-421d-ba3d-b17bb5ccde33.png">
  
- <img width="239" alt="image" src="https://user-images.githubusercontent.com/68117560/144376504-c8a5ac5a-efb3-446a-a642-878473bdcca6.png"></p>
-
+ <img width="239" alt="image" src="https://user-images.githubusercontent.com/68117560/144376504-c8a5ac5a-efb3-446a-a642-878473bdcca6.png">
+</p>
 
