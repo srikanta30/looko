@@ -4,10 +4,11 @@
 
 # Team Members
 1. Shreekanta Banarjee
-2. Nagendra Patil
-3. Ruturaj Gaikwad
-4. Pratik Jadhav
-5. Sanket Chaware
+2. Sovik Datta
+3. Nagendra Patil
+4. Ruturaj Gaikwad
+5. Pratik Jadhav
+6. Sanket Chaware
 
 # Features
 1. It allows you to capture the real time photo of you.
