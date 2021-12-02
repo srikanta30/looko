@@ -30,7 +30,7 @@
 
 # Some Snapshots of Application:-
 
-p align="center" > 
+<p align="center" > 
 
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/68117560/144375962-3e626be6-f3fa-46f5-828e-6ecd01438da6.png">
   &nbsp
