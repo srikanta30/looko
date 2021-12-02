@@ -3,6 +3,9 @@ import image1 from "./image.png";
 import image2 from "./image1.png";
 import image3 from "./image2.png";
 import image4 from "./image3.png";
+import { Link } from "react-router-dom";
+
+
 
 function Results() {
 
@@ -13,14 +16,14 @@ function Results() {
       "Try  Shoes instead off sandals",
       "Try  a black hat ",
     ],
-  
+
     [
       "Try  a denim jacket",
       "Try  a white shirt",
       "Try  a tie  for good looks",
       "Try  a watch",
     ],
-  
+
     [
       "Try a white shirt with black pant",
       "Try T-shirt for the formal look",
@@ -33,13 +36,13 @@ function Results() {
       "Try leather jacket",
       "Try snickers for your better look",
     ],
-  
+
     [
       "Try using round hat for more attractive look",
       "Try goggles which give you cool look ",
       "Try to change hairstyle its looking so ugly",
     ],
-  
+
     [
       "Try a cotton shirt with narrow jeans",
       "Try a black jacket with white shirt",
@@ -59,13 +62,15 @@ function Results() {
       </ul>
       <h4>Upgrade your style: </h4>
       <div className="stylecontainer">
-        <a href="https://www.myntra.com/jeans"><img src={image1} alt="image1" className="styleimage"/></a>
-        <a href="https://www.myntra.com/sunglasses"><img src={image2} alt="image1" className="styleimage"/></a>
+        <a href="https://www.myntra.com/jeans"><img src={image1} alt="image1" className="styleimage" /></a>
+        <a href="https://www.myntra.com/sunglasses"><img src={image2} alt="image1" className="styleimage" /></a>
       </div>
       <div className="stylecontainer">
-      <a href="https://www.myntra.com/shoes"><img src={image3} alt="image1" className="styleimage"/></a>
-      <a href="https://www.flipkart.com/q/hair-gel"><img src={image4} alt="image1"className="styleimage"/></a>
+        <a href="https://www.myntra.com/shoes"><img src={image3} alt="image1" className="styleimage" /></a>
+        <a href="https://www.flipkart.com/q/hair-gel"><img src={image4} alt="image1" className="styleimage" /></a>
       </div>
+      <button className="button"><Link to="/history">Next</Link></button>
+
       
     </div>
   );
