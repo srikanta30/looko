@@ -15,7 +15,7 @@
 2. Google Authentication.
 3. User can upload or click a photo and check that if the outfit looks better or not.
 4. Fetches the best options from the fashion website to try on.
-5.Real time history log of the user.
+5. Real time history log of the user.
 
 # Technologies used:-
 1. ReactJs
