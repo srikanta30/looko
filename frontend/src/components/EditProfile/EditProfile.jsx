@@ -20,7 +20,7 @@ export const EditProfile = () => {
           <img src={Pencil} alt="pencil" />
         </div>
         <div id="pic">
-          <img src="https://pbs.twimg.com/profile_images/1449022166930919432/6YdCe7WM_400x400.jpg" alt="pfp" />
+          <img src="https://pbs.twimg.com/profile_images/1463382213136121856/PqwBKQG1_400x400.jpg" alt="pfp" />
         </div>
       </div>
       <div id="form">
