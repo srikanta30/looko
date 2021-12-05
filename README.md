@@ -3,12 +3,11 @@
 
 
 # Team Members
-1. Shreekanta Banarjee
-2. Souvik Datta
-3. Nagendra Patil
-4. Ruturaj Gaikwad
-5. Pratik Jadhav
-6. Sanket Chaware
+1. Srikanta Banerjee : https://github.com/srikanta30
+2. Souvik Dutta : https://github.com/souvik666
+3. Nagendra Patil: https://github.com/NagendraPatil
+4. Pratik Jadhav : https://github.com/pratikjadhav718
+5. Sanket Chaware : https://github.com/sanketnchaware
 
 # Features
 1. It allows you to capture the real time photo of you.
