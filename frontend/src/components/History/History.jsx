@@ -18,7 +18,7 @@ function History() {
                 <input type="text" placeholder="Search" className="search" />
               </td>
               <td>
-                <a href="#"><img src={searchicon} alt=""/></a>
+                <a href="/history"><img src={searchicon} alt=""/></a>
               </td>
             </tr>
           </table>
