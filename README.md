@@ -1,10 +1,6 @@
 # LookO
 LookO is an web application made for mobile users which suggest the best outfit for you after capturing a photo or upload the photo from gallery. Its an web app which is quite interesting for those one's who usually get confused for getting the best outfit. So this application will provide the best suggestions and provides the best outfits that looks great on the user.
 
-# Demo Video:
-https://www.linkedin.com/feed/update/urn:li:activity:6865286187918217217/
-
-
 # Team Members
 1. Srikanta Banerjee : https://github.com/srikanta30
 2. Souvik Dutta : https://github.com/souvik666
